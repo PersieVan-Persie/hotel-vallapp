@@ -1,0 +1,92 @@
+.banner{
+    margin-top: -110px;
+    height: 80vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.bNer{
+    padding-top: 20px;
+    position: relative;
+    border-radius: 50px;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(180deg, #000 0%, rgba(0,0,0,0)100%), url("https://ak-d.tripcdn.com/images/22011e000001fae1z79CD_Z_1100_824_R5_Q70_D.jpg") center center;
+
+}
+.banner_info
+{
+    color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 15vh;
+    padding-bottom: 70px;
+    width: 800px;
+
+}
+.banner_info >button{
+    background-color: cornflowerblue;
+    height: 30px;
+    width: 150px;
+    border-radius: 15px;
+    
+    font-weight: 600;
+}
+.banner_info >h4{
+    font-weight: 400;
+   margin-top: 0;
+   width: 672px;
+   margin-bottom: 0;
+   height: 25px;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   font-size: normal;
+   font-size: 20px;
+   line-height: 25px;
+   text-align: center;
+   letter-spacing: 0.25em;
+   text-transform: uppercase;
+   color: white;
+
+
+}
+.banner_info >h1{
+
+    padding-top: 30px;
+    margin-top: 0px;
+    color: rgb(246, 247, 251);
+    position: relative;
+    font-size: 70px;
+    font-weight: 250px;
+    text-align:start;
+    -webkit-text-stroke: 0.3vw rgb(71, 125, 224);
+    ;
+}
+h2::before{
+
+    content: attr(data-text);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    color: aqua;
+    -webkit-text-stroke: 0vw black;
+    border-right: 2px solid aqua;
+    overflow: hidden;
+    animation: animate 6s linear infinite;
+
+}
+@keyframes animate{
+    0%,10%,100%
+    {
+        width: 0;
+    }
+    70%,90%
+    {
+        width: 100%;
+
+    }
+}
